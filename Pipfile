@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 telebot = "*"
 apscheduler = "*"
+aiohttp = "*"
 
 [dev-packages]
 

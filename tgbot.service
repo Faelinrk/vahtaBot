@@ -1,0 +1,13 @@
+[Unit]
+Description=Bot
+After=network.target
+
+[Service]
+User=root
+Restart=always
+Type=simple
+WorkingDirectory=/root/vahtaBot
+ExecStart=pipenv run python3 main.py
+
+[Install]
+WantedBy=multi-user.target
